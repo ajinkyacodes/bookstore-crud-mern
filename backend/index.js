@@ -21,9 +21,17 @@ app.use(
     })
 )
 
+// Display Page View for root directory of the backend
+const displayPageView = `
+<div style="height:100%; display:-webkit-box; display:-ms-flexbox; display:flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align:center; -ms-flex-align:center; align-items:center; -webkit-box-pack:center; -ms-flex-pack:center; justify-content:center;">
+    <h1 style="font-family:sans-serif; font-size: 48px; text-align:center;">Book Store App</h1>
+    <h2 style="font-family:sans-serif; font-size: 30px; text-align:center;">(Backend)</h2>
+</div>
+`;
+
 app.get('/', (request, response)=> {
    console.log(request);
-   return response.status('234').send('Welcome to my website'); 
+   return response.status('234').send(displayPageView);
 });
 
 app.use("/books", bookRoute);
