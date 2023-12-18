@@ -2,6 +2,7 @@
   "name": "bookstore-backend",
   "version": "1.0.0",
   "description": "Book Store App Backend",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
