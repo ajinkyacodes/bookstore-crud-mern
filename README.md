@@ -23,6 +23,7 @@
 - CLI
 - NPM
 - MongoDB
+- Postman
 - NODE v20+
 - Vite@latest
 
