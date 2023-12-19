@@ -31,7 +31,7 @@
 ##### Clone the latest Repository
 
 ```bash
-git clone https://github.com/ajinkyacodes/bookstore-crud-mern.git`
+git clone https://github.com/ajinkyacodes/bookstore-crud-mern.git
 ```
 
 ##### Into the project directory (backend)
